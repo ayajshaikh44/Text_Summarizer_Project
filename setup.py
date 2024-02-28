@@ -1,7 +1,22 @@
 import setuptools
+from typing import List
+
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
+
+hypen_obj = '-e .'
+def get_requirements(file_path:str)-> List[str]:
+    '''
+        This function is returns the list of requirements
+    '''
+    with open(file_path) as f:
+        requirements = f.readlines()
+        requirements = [req.replace("\n", "" ) for req in requirements]
+
+        if hypen_obj in requirements:
+            requirements.remove(hypen_obj)
+    return requirements 
 
 
 __version__ = "0.0.0"
