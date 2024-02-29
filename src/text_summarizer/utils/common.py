@@ -20,7 +20,9 @@ def read_yaml(path_to_yaml:Path)-> ConfigBox:
 
         Returns:
             ConfigBox: ConfigBox type
+
     """
+    print('a')
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
