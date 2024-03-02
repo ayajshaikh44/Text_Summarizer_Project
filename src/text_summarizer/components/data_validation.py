@@ -12,7 +12,7 @@ class DataValidation:
     def validation_all_file_exist(self)-> bool:
         try:
             validation_status = None
-            all_files = os.listdir(Path("artifacts\data_ingestion\samsum_dataset"))
+            all_files = os.listdir(os.path.join("artifacts","data_ingestion","samsum_dataset"))
 
             for file in all_files:
                 if file not in self.config.ALL_REQUIRED_FILES:
