@@ -18,7 +18,7 @@
 Clone the repository
 
 ```bash
-https://github.com/ayajshaikh44/End-to-end-Text-Summarization
+https://github.com/ayajshaikh44/Text_Summarizer_Project
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
