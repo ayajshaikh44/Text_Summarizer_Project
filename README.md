@@ -18,12 +18,12 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/ayajshaikh44/End-to-end-Text-Summarization
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n summary python=3.8 -y
+conda create -n summary python=3.11 -y
 ```
 
 ```bash
